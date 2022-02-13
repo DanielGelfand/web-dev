@@ -1,0 +1,42 @@
+.wd-black-bg {
+    background-color: black;
+}
+
+.wd-helvetica {
+    font-family: helvetica;
+}
+
+.wd-user-handle {
+    color: lightgray;
+}
+
+.wd-avatar {
+    border-radius: 25px;
+}
+
+.wd-post-content {
+    clear:both;
+}
+
+.wd-max-width {
+    max-width: 506px;
+}
+
+.wd-left-margin-12 {
+    margin-left: 12px;
+}
+
+.wd-bookmark-img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.wd-bookmark-text {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.wd-icon-link {
+    width: 25%;
+    float: left;
+}
