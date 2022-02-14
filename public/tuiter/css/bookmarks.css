@@ -34,9 +34,15 @@
 .wd-bookmark-text {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    position: relative;
+    bottom: 5px;
 }
 
 .wd-icon-link {
     width: 25%;
     float: left;
+}
+
+.wd-post-icons {
+    margin-top: 12px;
 }
