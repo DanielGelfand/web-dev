@@ -83,3 +83,7 @@
 .wd-no-top-border {
     border-top: none;
 }
+
+.wd-no-margin-top {
+    margin-top: 0px;
+}
