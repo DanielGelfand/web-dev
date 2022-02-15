@@ -40,10 +40,9 @@
     color: rgb(29, 161, 242);
     border-color: rgb(29, 161, 242);
     border-bottom-style: solid;
+    border-bottom-width: 4px;
     display: inline-block;
     margin-bottom: 1px;
-
-
 }
 
 .wd-bottom-border-tabs {

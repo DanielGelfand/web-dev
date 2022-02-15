@@ -14,6 +14,10 @@
     margin-left: 16px;
 }
 
+.wd-left-padding {
+    padding-left: 16px;
+}
+
 .wd-top-padding {
     padding-top: 12px;
 }
@@ -74,4 +78,8 @@
 
 .wd-hidden-overflow {
     overflow: hidden;
+}
+
+.wd-no-top-border {
+    border-top: none;
 }
