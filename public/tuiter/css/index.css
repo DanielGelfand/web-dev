@@ -67,3 +67,11 @@
 .wd-red-color {
     color: red;
 }
+
+.wd-body-side-padding {
+    padding: 0px 10px 0px 10px;
+}
+
+.wd-hidden-overflow {
+    overflow: hidden;
+}

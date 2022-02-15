@@ -41,8 +41,9 @@
 .wd-icon-link {
     width: 25%;
     float: left;
+    margin-bottom: 12px;
 }
 
-.wd-post-icons {
+.wd-post-icons-div {
     margin-top: 12px;
 }
