@@ -5,76 +5,272 @@
     <title>Explore</title>
     <link href="./css/explore.css" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet">
+    <link href="../vendors/bootstrap/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          rel="stylesheet"/>
+
 </head>
-<body class="wd-black-bg wd-helvetica">
+<body>
 
-<div class="wd-left-margin">
-    <div class="wd-border wd-no-top-border">
-        <div class="wd-left-padding">
-            <input class="wd-search-bar wd-all-rounded"
-                   placeholder="Search Tuiter"/>
-            <a href="explore-settings.html" class="wd-gear"><span>&#9881;</span></a>
+<div class="container-fluid">
+
+
+    <!--
+    <h2>Hiding and showing responsive content</h2>
+    <div class="d-block d-sm-none fa-2x">XS</div>
+    <div class="d-none d-sm-block d-md-none fa-2x">S</div>
+    <div class="d-none d-md-block d-lg-none fa-2x">M</div>
+    <div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+    <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+    <div class="d-none d-xxl-block fa-2x">XXL</div>
+    -->
+
+
+
+    <div class="row m-1">
+        <!-- Navigation left sidebar -->
+        <div class="col-2 col-lg-1 col-xl-2">
+            <div class="list-group">
+                <a href="#" class="list-group-item"><i class="fab fa-twitter"></i></a>
+                <a href="home.html" class="list-group-item">
+                    <i class="fas fa-home"></i>
+                    <div class="d-none d-xl-inline">Home</div>
+                </a>
+                <a href="explore.html"
+                   class="list-group-item active"><i
+                        class="fas fa-hashtag"></i>
+                    <div class="d-none d-xl-inline">Explore</div>
+                </a>
+                <a href="notifications.html" class="list-group-item">
+                    <i class="fas fa-bell"></i>
+                    <div class="d-none d-xl-inline">Notifications</div>
+                </a>
+                <a href="messages.html" class="list-group-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="d-none d-xl-inline">Messages</div>
+                </a>
+                <a href="#" class="list-group-item">
+                    <i class="fas fa-bookmark"></i>
+                    <div class="d-none d-xl-inline">Bookmarks</div>
+                </a>
+                <a href="#" class="list-group-item">
+                    <i class="fas fa-list"></i>
+                    <div class="d-none d-xl-inline">Lists</div>
+                </a>
+                <a href="#" class="list-group-item">
+                    <i class="fas fa-user"></i>
+                    <div class="d-none d-xl-inline">Profile</div>
+                </a>
+                <a href="#" class="list-group-item">
+                    <i class="fas fa-ellipsis-h"></i>
+                    <div class="d-none d-xl-inline">More</div>
+                </a>
+                <button class="btn btn-primary rounded-pill mt-2">Tuit</button>
+            </div>
         </div>
 
-        <div class="wd-tabs-div wd-bottom-border-tabs wd-left-padding">
-            <a class="wd-tab wd-highlighted-tab" href="#"><b>For you</b></a>
-            <a class="wd-tab" href="#"><b>Trending</b></a>
-            <a class="wd-tab" href="#"><b>COVID-19</b></a>
-            <a class="wd-tab" href="#"><b>News</b></a>
-            <a class="wd-tab" href="#"><b>Sports</b></a>
-            <a class="wd-tab" href="#"><b>Entertainment</b></a>
+        <!-- Middle content -->
+        <div class="col-8 col-sm-10 col-lg-6">
+            <div class="input-group mb-2">
+                <i class="fa fa-search"
+                   style="position:relative; top: 10px; left: 4px;"></i>
+                <input type="text" class="form-control form-input"
+                       placeholder="       Search Tuiter"
+                       style="border-radius:40px;
+                       position:relative; right: 20px; z-index: -1;">
+                <i class="fas fa-cog fs-2 text-primary" style="position:relative;
+                top:
+                 2px;"></i>
+            </div>
+
+            <ul class="nav nav-tabs mb-2">
+                <li class="nav-item"><a class="nav-link active"
+                                        href="for-you.html">For you</a></li>
+                <li class="nav-item"><a class="nav-link" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item"><a class="nav-link"
+                                        href="sports.html">Sports</a></li>
+                <li class="nav-item d-sm-none d-md-block">
+                    <a class="nav-link"
+                       href="entertainment.html">Entertainment</a>
+                </li>
+            </ul>
+
+            <div class="card">
+                <div class="wd-position-relative">
+                    <h2 class="wd-text-overlay wd-white-color">SpaceX's
+                        Starship</h2>
+                    <img class="card-img-top"
+                         src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg?w=600"/>
+                </div>
+                <ul class="list-group" style="position:relative;">
+                    <li class="list-group-item">
+                        <div>
+                            <img width="100px" height="100px" style="float: right"
+                                 src="data:image/png;base64,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">
+                            <span class="wd-darker-gray">Web Development</span><br/>
+                            <b>ReactJS</b>
+                            <span class="wd-darker-gray"> - 2hr</span><br/>
+                            <b>
+                                React.js is a component based front end library
+                                that makes it very easy to build Single Page
+                                Applications or SPAs
+                            </b>
+                        </div>
+
+                    </li>
+                    <li class="list-group-item">
+                        <div>
+                            <img width="100px" height="100px" style="float:
+                            right; border-radius:10px;"
+                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png">
+                            <b>JavaScript
+                                <i class="fas fa-check-circle"></i></b><span class="wd-darker-gray"> - 2hr</span><br/>
+                            <b>Javascript is a programming language than can
+                                run on browsers as well as desktops.</b><br/>
+                            <span class="wd-darker-gray"> 123K Tuits</span><br/>
+                        </div>
+
+                    </li>
+                    <li class="list-group-item">
+                        <div>
+                            <img width="100px" height="100px" style="float:
+                            right;"
+                                 src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png">
+                            <span class="wd-darker-gray">Web Development</span><br/>
+                            <b>jQuery</b><br/>
+                            <span class="wd-darker-gray"> 123K Tuits</span><br/>
+                        </div>
+
+                    </li>
+                    <li class="list-group-item" style="max-height:100px;">
+                        <div>
+                            <img width="100px" height="100px" style="float:
+                            right; position:relative; bottom:20px; "
+                                 src="https://pluralsight2.imgix.net/paths/images/nodejs-45adbe594d.png">
+                            <span class="wd-darker-gray">Web Development</span><br/>
+                            <b>Node JS <i class="fas fa-check-circle"></i></b><span class="wd-darker-gray"> -
+                            2h</span><br/>
+                            <span class="wd-darker-gray">
+                                123K Tweets
+                            </span>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+
         </div>
-    </div>
 
-    <div class="wd-post-div wd-left-padding">
-        <p class="wd-topic wd-no-margin">Trending In Science</p>
-        <p class="wd-tweet-title">Starship</p>
-        <p class="wd-topic wd-tuit-count-color">55.5K Tuits</p>
-    </div>
+        <!-- Right sidebar -->
+        <div class="col-4 d-none d-lg-block col-lg-4">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <b>Who to follow</b>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="wd-follow-img"
+                                 src="https://qph.fs.quoracdn.net/main-qimg-48b7a3d8958565e7aa3ad4dbf2312770">
+                        </div>
 
-    <div class="wd-post-div wd-left-padding">
-        <p class="wd-topic wd-no-margin">Trending In United States</p>
-        <p class="wd-tweet-title">Wonder Bread</p>
-        <p class="wd-topic wd-tuit-count-color">1,259 Tuits</p>
-    </div>
+                        <div class="col-6 ml-0 p-0 wd-left-margin-5px">
+                            <span class="fw-bold">Java </span><i
+                                class="fa-solid fa-circle-check"></i><br/>
+                            <span class="wd-darker-gray">@Java</span><br/>
+                        </div>
+                        <div class="col-3 m-0">
+                            <button class="btn btn-primary rounded-pill wd-follow-btn">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 m-0">
+                            <img class="wd-follow-img"
+                                 src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/j3dbh6kok0dket3uz2vy">
+                        </div>
 
-    <div class="wd-post-div wd-border wd-min-height-100 wd-left-padding">
-        <img src="cuomo.jpg" class="wd-post-image" width="100px" height="100px"/>
-        <p class="wd-no-margin">
-            <span class="wd-post-author">The New York Times</span>
-            <span class="wd-topic">&bull; Yesterday</span>
-        </p>
-        <p class="wd-tweet-title">CNN's Cuomo Conundrum: A star anchor with a
-            brother in trouble</p>
-    </div>
+                        <div class="col-6 ml-0 p-0 wd-left-margin-5px">
+                            <span class="fw-bold">Relativity Space </span><i
+                                class="fa-solid fa-circle-check"></i><br/>
+                            <span class="wd-darker-gray">@relativityspace
+                            </span><br/>
+                        </div>
+                        <div class="col-3 m-0">
+                            <button class="btn btn-primary rounded-pill wd-follow-btn">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 m-0">
+                            <img class="wd-follow-img"
+                                 src="https://cdn.freebiesupply.com/logos/large/2x/virgin-1-logo-png-transparent.png">
+                        </div>
 
-    <div class="wd-post-div wd-border wd-min-height-100 wd-left-padding">
-        <img src="booster.jpg" class="wd-post-image" width="100px"
-             height="100px"/>
-        <p class="wd-no-margin">
-            <span class="wd-post-author">Bloomberg Opinion</span>
-            <span class="wd-topic">&bull; Yesterday</span>
-        </p>
-        <p class="wd-tweet-title">Thinking about getting a booster? Read this
-            first.</p>
-    </div>
+                        <div class="col-6 ml-0 p-0 wd-left-margin-5px">
+                            <span class="fw-bold">Virgin Galactic </span><i
+                                class="fa-solid fa-circle-check"></i><br/>
+                            <span class="wd-darker-gray">@virgingalactic
+                            </span><br/>
+                        </div>
+                        <div class="col-3 m-0">
+                            <button class="btn btn-primary rounded-pill wd-follow-btn">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 m-0">
+                            <img class="wd-follow-img"
+                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png">
+                        </div>
 
-    <div class="wd-post-div wd-border wd-min-height-100 wd-left-padding">
-        <img src="covid.jpg" class="wd-post-image" width="100px"
-             height="100px"/>
-        <p class="wd-no-margin">
-            <span class="wd-topic">COVID-19 &bull; LIVE</span>
-        </p>
-        <p class="wd-tweet-title">COVID-19: News and Updates</p>
-    </div>
+                        <div class="col-6 ml-0 p-0 wd-left-margin-5px">
+                            <span class="fw-bold">NASA </span><i
+                                class="fa-solid fa-circle-check"></i><br/>
+                            <span class="wd-darker-gray">@NASA</span><br/>
+                        </div>
+                        <div class="col-3 m-0">
+                            <button class="btn btn-primary rounded-pill wd-follow-btn">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 m-0">
+                            <img class="wd-follow-img"
+                                 src="https://i.ebayimg.com/images/g/vTcAAOSwtixemFcY/s-l1600.jpg">
+                        </div>
 
-    <div class="wd-post-div wd-border wd-min-height-100 wd-left-padding">
-        <img src="wildfire.jpg" class="wd-post-image" width="100px"
-             height="100px"/>
-        <p class="wd-no-margin">
-            <span class="wd-topic">California Wildfire &bull; LIVE</span>
-        </p>
-        <p class="wd-tweet-title">California Wildfire: News and Updates</p>
+                        <div class="col-6 ml-0 p-0 wd-left-margin-5px">
+                            <span class="fw-bold">Tesla </span><i
+                                class="fa-solid fa-circle-check"></i><br/>
+                            <span class="wd-darker-gray">@Tesla</span><br/>
+                        </div>
+                        <div class="col-3 m-0">
+                            <button class="btn btn-primary rounded-pill wd-follow-btn">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
     </div>
 
 </div>
