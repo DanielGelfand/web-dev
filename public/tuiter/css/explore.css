@@ -104,3 +104,8 @@
     bottom: 6px;
     left: 3px;
 }
+
+.wd-stacked-icon-div {
+    position:relative;
+    right:12px;
+}
