@@ -6,24 +6,22 @@
     border-radius: 50px;
 }
 
+.wd-search-icon {
+    position:relative;
+    top: 10px;
+    left: 4px;
+}
+
 .wd-search-bar {
-    background-color: rgb(47,51,54);
-    border-color: rgb(47,51,54);
-    color: white;
-    border-width: 0px;
-    height: 25px;
-    width: 90%;
-    padding-left: 20px;
-    margin-bottom: 5px;
-    outline: none;
+    border-radius: 40px;
+    position: relative;
+    right: 20px;
+    z-index: -1;
 }
 
 .wd-gear {
-    float: right;
-    font-size: 20px;
-    margin-right: 12px;
-    color: rgb(30, 160, 230);
-    text-decoration: none;
+    position: relative;
+    top: 2px;
 }
 
 .wd-tabs-div {
