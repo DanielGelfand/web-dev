@@ -1,0 +1,213 @@
+.wd-black-bg {
+    background-color: black;
+}
+
+.wd-all-rounded {
+    border-radius: 50px;
+}
+
+.wd-search-icon {
+    position:relative;
+    top: 10px;
+    left: 4px;
+}
+
+.wd-search-bar {
+    border-radius: 40px;
+    position: relative;
+    right: 20px;
+    z-index: -1;
+}
+
+.wd-gear {
+    position: relative;
+    top: 2px;
+}
+
+.wd-tabs-div {
+    clear: both;
+}
+
+.wd-tab {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.wd-highlighted-tab {
+    color: rgb(29, 161, 242);
+    border-color: rgb(29, 161, 242);
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    display: inline-block;
+    margin-bottom: 1px;
+}
+
+.wd-bottom-border-tabs {
+    color: rgb(110, 118, 125);
+    border-width: 0px 0px 10px 0px;
+    border-style: solid;
+}
+
+.wd-topic {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-tweet-title {
+    color: white;
+    font-size: 15px;
+}
+
+.wd-post-div {
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 0px 10px 10px;
+}
+
+.wd-min-height-100 {
+    min-height: 100px;
+}
+
+.wd-post-author {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.wd-post-image {
+    float: right;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.wd-tuit-count-color {
+    color: rgb(110, 118, 125)
+}
+
+.wd-follow-btn {
+    position: absolute;
+    right: 10px;
+}
+
+.wd-follow-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.wd-text-overlay {
+    position: absolute;
+    bottom: 6px;
+    left: 3px;
+}
+
+.wd-stacked-icon-div {
+    position:relative;
+    right:12px;
+}
+
+.wd-black-bg {
+    background-color: black;
+}
+
+.wd-helvetica {
+    font-family: helvetica;
+}
+
+.wd-top-margin {
+    margin-top: 12px;
+}
+
+.wd-left-margin {
+    margin-left: 16px;
+}
+
+.wd-left-margin-5px {
+    margin-left: 5px;
+}
+
+.wd-left-padding {
+    padding-left: 16px;
+}
+
+.wd-top-padding {
+    padding-top: 12px;
+}
+
+.wd-left-padding {
+    padding-left: 16px;
+}
+
+.wd-no-margin {
+    margin: 0px
+}
+
+.wd-white-color {
+    color: white;
+}
+
+.wd-gray-color {
+    color: lightgray;
+}
+
+.wd-darker-gray {
+    color: rgb(110, 118, 125);
+}
+
+.wd-font-20 {
+    font-size: 20px;
+}
+
+.wd-border {
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.wd-font-13 {
+    font-size: 13px;
+}
+
+.wd-font-15 {
+    font-size: 15px;
+}
+
+.wd-float-left {
+    float:left;
+}
+
+.wd-clear-float {
+    clear: both;
+}
+
+.wd-padding-12 {
+    padding: 12px;
+}
+
+.wd-red-color {
+    color: red;
+}
+
+.wd-body-side-padding {
+    padding: 0px 10px 0px 10px;
+}
+
+.wd-hidden-overflow {
+    overflow: hidden;
+}
+
+.wd-no-top-border {
+    border-top: none;
+}
+
+.wd-no-margin-top {
+    margin-top: 0px;
+}
+
+.wd-position-relative {
+    position: relative;
+}
