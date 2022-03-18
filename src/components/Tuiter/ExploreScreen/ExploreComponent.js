@@ -63,6 +63,7 @@ const ExploreComponent = () => {
           <img
             className="card-img-top"
             src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg?w=600"
+            alt="starship"
           />
         </div>
       </div>

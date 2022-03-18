@@ -19,6 +19,7 @@ const PostSummaryItem = ({
             height="80"
             style={{ float: "right", borderRadius: "10px" }}
             src={post.image}
+            alt="listitem"
           />
           <span class="wd-darker-gray">{post.topic}</span>
           {post.topic ? <br /> : ""}
