@@ -8,7 +8,7 @@
 
 .wd-search-icon {
     position:relative;
-    top: 10px;
+    top: 8px !important;
     left: 4px;
 }
 
@@ -210,4 +210,8 @@
 
 .wd-position-relative {
     position: relative;
+}
+
+.wd-front {
+    z-index: 1;
 }

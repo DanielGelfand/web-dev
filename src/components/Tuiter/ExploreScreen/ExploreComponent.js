@@ -6,7 +6,7 @@ const ExploreComponent = () => {
   return (
     <div>
       <div className="input-group mb-2">
-        <i className="fa fa-search wd-search-icon"></i>
+        <i className="fa fa-search wd-search-icon wd-front"></i>
         <input
           type="text"
           className="form-control form-input h-75"
