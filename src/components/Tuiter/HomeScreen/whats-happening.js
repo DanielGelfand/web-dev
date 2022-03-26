@@ -16,6 +16,7 @@ const WhatsHappening = () => {
         <img
           src="https://jackstech.net/ElonTwitter/Images/StarshipSunset.jpg"
           className="wd-follow-img m-2"
+          alt="starship_sunset"
         />
         <textarea
           placeholder="What's happening?"
