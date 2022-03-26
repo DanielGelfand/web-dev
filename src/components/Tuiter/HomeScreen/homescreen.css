@@ -1,0 +1,11 @@
+.wd-color-blue {
+    color: lightblue;
+}
+.wd-textarea {
+    color: lightgrey;
+    border-bottom: 1px solid gray;
+}
+
+.wd-tuit-list-img {
+    width: 100%;
+}

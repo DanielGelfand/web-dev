@@ -38,6 +38,10 @@
     color: white;
 }
 
+.wd-blue-color {
+    color: blue !important;
+}
+
 .wd-gray-color {
     color: lightgray;
 }
