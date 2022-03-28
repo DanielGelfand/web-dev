@@ -18,7 +18,7 @@ const TuitListItem = ({ tuit }) => {
           src={tuit.avatarImg}
           alt="avatar"
         />
-        <div className="wd-float-left">
+        <div className="wd-float-left" style={{ width: "100%" }}>
           <div className="mb-1">
             <div>
               <i

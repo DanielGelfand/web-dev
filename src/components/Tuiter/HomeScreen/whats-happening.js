@@ -20,9 +20,10 @@ const WhatsHappening = () => {
         />
         <textarea
           placeholder="What's happening?"
-          className="form-control bg-black wd-textarea"
+          className="form-control bg-black wd-textarea wd-darker-gray"
           value={whatsHappening}
           onChange={(event) => setWhatsHappening(event.target.value)}
+          style={{ color: "white" }}
         ></textarea>
       </div>
       <div>
