@@ -27,7 +27,7 @@ const TuitListItem = ({ tuit }) => {
               ></i>
               <b>{tuit.postedBy.username}</b>
               {tuit.verified && <i className="fas fa-check-circle ms-1"></i>}
-              <span className="wd-color-lightgrey ms-1">@{tuit.handle}</span>
+              <span className="wd-darker-gray ms-1">@{tuit.handle}</span>
             </div>
             {tuit.tuit}
           </div>
