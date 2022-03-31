@@ -27,13 +27,12 @@ const TuitStats = ({ tuit }) => {
       >
         <span
           onClick={() =>
-            !tuit.liked &&
             updateTuit(dispatch, {
               ...tuit,
-              liked: true,
+              liked: !tuit.liked,
               stats: {
                 ...tuit.stats,
-                likes: tuit.stats.likes + 1,
+                likes: tuit.stats.likes + (tuit.liked ? -1 : 1),
               },
             })
           }
@@ -47,13 +46,12 @@ const TuitStats = ({ tuit }) => {
         </span>
         <span
           onClick={() =>
-            !tuit.disliked &&
             updateTuit(dispatch, {
               ...tuit,
-              disliked: true,
+              disliked: !tuit.disliked,
               stats: {
                 ...tuit.stats,
-                dislikes: tuit.stats.dislikes + 1,
+                dislikes: tuit.stats.dislikes + (tuit.disliked ? -1 : 1),
               },
             })
           }
