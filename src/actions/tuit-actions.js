@@ -6,7 +6,9 @@ export const UPDATE_TUIT = "UPDATE_TUIT";
 export const DELETE_TUIT = "DELETE_TUIT";
 
 export const createTuit = async (dispatch, tuit) => {
+  console.log("Frontend tuit:", tuit);
   const newTuit = await service.createTuit(tuit);
+  console.log("Called to create tuit:", newTuit);
   dispatch({
     type: CREATE_TUIT,
     newTuit,
@@ -14,7 +16,8 @@ export const createTuit = async (dispatch, tuit) => {
 };
 
 export const findAllTuits = async (dispatch) => {
-  const tuits = await service.findAllTuits();
+  const tuits = (await service.findAllTuits()).reverse();
+  console.log("Tuits:", tuits);
   dispatch({
     type: FIND_ALL_TUITS,
     tuits,
